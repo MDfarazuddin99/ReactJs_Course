@@ -1,0 +1,10 @@
+to install node
+->$ volta install node@lts
+in frontend folder initalize project
+->$ npm init -y
+in frontend folder install node@12 (use pin command)
+->$ volta pin node@12
+in frontend folder install npm@latest
+->$ volta pin npm@lts
+in backend folder install node@16
+->$ volta pin node@16
