@@ -62,14 +62,32 @@ const transformToObjects = (nums) => {
 }
 console.log(transformToObjects([1,2,3]))
 
+
+const items = [
+    
+      {name: 'Bike',price: 100       },
+      {name: 'TV',price: 200         },
+      {name: 'Album',price: 10       },
+      {name: 'Book',price: 5         },
+      {name: 'Phone',price: 500      },
+      {name: 'Computer', price: 1000 },
+      {name: 'Keyboard', price: 25 }
+  ]
+ 
+console.log("All Items: \n",items)
 // array.map()
-
+items.map((item)=>{
+    console.log(item)
+})
 // array.find()
-
+const theOne = items.find()
 // array.findIndex()
 
 // array.filter()
-
+const filteredItems = items.filter((item)=>{
+    return item.price <= 100;
+});
+console.log("Filterd Items: ",filteredItems);
 // array.reduce()
 
 // array.concat()
